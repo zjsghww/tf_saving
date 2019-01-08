@@ -63,7 +63,7 @@ def main():
     x_data = np.reshape(x_data, (n_samples, 1))
     y_data = np.reshape(y_data, (n_samples, 1))
 
-    # # Placeholders for batched input
+    # Placeholders for batched input
     # x = tf.placeholder(tf.float32, shape=1, name='x')
     # y = tf.placeholder(tf.float32, shape=1, name='y')
 
