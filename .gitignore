@@ -1,0 +1,12 @@
+*.iml
+.idea/*
+out/
+srcsavemodel/
+venv/
+models/
+ml/
+tf_dir/
+face_recog/
+cifar/
+MNIST_data/
+
