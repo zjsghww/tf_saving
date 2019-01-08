@@ -154,23 +154,3 @@ def main():
 if __name__ == '__main__':
     # main()
     predict()
-
-    # inputs = {
-    #     'input_x': tf.saved_model.utils.build_tensor_info(x),
-    #     'input_y': tf.saved_model.utils.build_tensor_info(y)
-    # }
-    #
-    # outputs = {'output': tf.saved_model.utils.build_tensor_info(loss)}
-    # prediction_signature = tf.saved_model.signature_def_utils.build_signature_def(
-    #     inputs=inputs,
-    #     outputs=outputs,
-    #     method_name=tf.saved_model.signature_constants.PREDICT_METHOD_NAME
-    # )
-    #
-    # builder.add_meta_graph_and_variables(
-    #     sess,
-    #     [tf.saved_model.tag_constants.SERVING],
-    #     {tf.saved_model.signature_constants.DEFAULT_SERVING_SIGNATURE_DEF_KEY: prediction_signature}
-    # )
-    #
-    # builder.save()
